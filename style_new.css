@@ -1,0 +1,19 @@
+.news .span4:first-child {
+  margin-right: 20px;
+}
+.news .span4 {
+    background-color: #fff;   
+    border: 1px solid #ddd;   
+    -webkit-border-radius: 4px;   
+    -moz-border-radius: 4px;   
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.news .span4 h4 {
+  padding-left: 15px;
+  padding-bottom: 0px;
+}
+.news .span4 p {
+  padding-left: 15px;
+  padding-right: 10px;
+}
