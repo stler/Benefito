@@ -23,6 +23,7 @@
   padding-right: 15px;
 }
 .cart {
+	  margin-bottom: -2px;
 	width: 32px;
 	height: 32px;
 	background-image: url(img/cart.png);
@@ -45,3 +46,16 @@ span.footer_rights {
   padding-top: 10px;
   display: inline-block;
 }
+.dropdown p {
+  margin: 0;
+  padding: 5px 7px 0;
+  float: left;
+  font-size: 14px;
+}
+.navbar li.dropdown {
+  margin-top: -4px;
+}
+.navbar .nav:first-child > li > a:hover{
+  background-color: #c7c7c7;
+  text-shadow: none;
+  }

@@ -62,6 +62,34 @@
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+	.tab-pane h4 span.pull-right {
+  margin-right: 33px;
+}
+	.tab-pane .thumbnail h4 {
+  margin-left: 27px!important;
+}
+	.nav-list span.pull-right {
+  margin-right: 30px!important;
+}
+	.nav-list .thumbnail h4 {
+  margin-left: 24px!important;
+}
+	.row-fluid .span3 {
+  width: 22.228177%!important;
+}
+	.caption {
+  padding-bottom: 22px!important;
+}
+
+	.thumbnail h4 {
+  margin-left: 4px!important;
+}
+.row-fluid .span3 h4 span.pull-right {
+  margin-right: 13px!important;
+}
+	.news .span4 {
+  margin-right: 15px!important;
+}
   .hidden-desktop {
     display: inherit !important;
   }
@@ -77,6 +105,9 @@
 }
 
 @media (max-width: 767px) {
+	.form-horizontal .pull-right {
+  float: left;
+}
   .hidden-desktop {
     display: inherit !important;
   }
@@ -1031,8 +1062,22 @@
     padding-left: 10px;
   }
 }
+@media (min-width: 980px) and (max-width: 1200px) {
+			
+	.row .span3 .thumbnail h4 {
+		margin-left: 24px;
+	}
+	.span9 .caption h4 span.pull-right {
+  margin-right: 30px;
+}
+.navbar .container {width:auto!important}
 
+}
 @media (min-width: 980px) {
+.caption {
+  margin-bottom: 15px;
+}
+
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
