@@ -1074,10 +1074,6 @@
 
 }
 @media (min-width: 980px) {
-.caption {
-  margin-bottom: 15px;
-}
-
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;

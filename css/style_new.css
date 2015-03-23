@@ -26,12 +26,12 @@
 	  margin-bottom: -2px;
 	width: 32px;
 	height: 32px;
-	background-image: url(img/cart.png);
+	background-image: url(../img/cart.png);
 	float: left;
 	border: none;
 }
 .cart:hover {
-	background-image: url(img/cart-hover.png);
+	background-image: url(../img/cart-hover.png);
 }
 span.cart-number {
   float: right;
@@ -59,3 +59,18 @@ span.footer_rights {
   background-color: #c7c7c7;
   text-shadow: none;
   }
+.nav-list .caption h5 {
+  text-align: left;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+.nav-list .caption a {
+  padding: 0!important;
+  margin: 0;
+}
+.nav-list .caption p {
+  text-align: left;
+}
+header#header {
+  display: block!important;
+}
