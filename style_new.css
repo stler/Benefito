@@ -35,8 +35,8 @@
 }
 span.cart-number {
   float: right;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 6px;
+  padding-left: 0px;
 }
 #header .pull-right {
     padding-top: 10px;
